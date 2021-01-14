@@ -10,7 +10,7 @@
             <div class="card-body">
                 <h5 class="card-title">Click on the "New band" button to create a band</h5>
                 <p class="card-text">Fill in all required fields and click on "Create" to create your band.</p>
-                <a href="#" class="btn btn-primary">New Band</a>
+                <a class="btn btn-primary" href="{{ route('createband') }}">New Band</a>
             </div>
         </div>
     </div>
